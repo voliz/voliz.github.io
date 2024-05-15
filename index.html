@@ -1,1 +1,59 @@
-test
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feruz Fazilov</title>
+    <link rel="icon" href="./Icon.png" type="image/x-icon" />
+    <style>
+      body,
+      html {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .pdf-container {
+        height: calc(100vh - 60px);
+        width: 100%;
+      }
+      embed {
+        height: 100%;
+        width: 100%;
+      }
+      nav {
+        height: 60px;
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>Feruz Fazilov</div>
+      <div>
+        <a href="https://www.linkedin.com/in/feruz-fazilov/" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="mailto:feruzfazilov2002@gmail.com">Email</a>
+      </div>
+    </nav>
+    <div class="pdf-container">
+      <embed
+        src="./Feruz_Fazilov_CV.pdf"
+        type="application/pdf"
+        width="100%"
+        height="100%"
+      />
+    </div>
+  </body>
+</html>
